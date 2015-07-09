@@ -3,15 +3,16 @@ a library for check network available on Android, which uses ping or request url
 
 Set Up
 ---
-**Gradle dependency**
-1. In your `build.gradle` add following. 
+**Gradle dependency** 
+
+ In your `build.gradle` add following. 
 ```
 repositories {
 	...
 	maven {url 'https://dl.bintray.com/gaoyan/maven/'}
 }
-```
-2. 
+``` 
+
 In your module `build.gradle` add follow 
 ```
 dependencies {
