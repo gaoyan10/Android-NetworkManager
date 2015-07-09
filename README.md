@@ -1,6 +1,23 @@
 # Android-NetworkManager
 a library for check network available on Android, which uses ping or request url to get the real network status.
 
+Set Up
+---
+**Gradle dependency**
+1. In your `build.gradle` add following. 
+```
+repositories {
+	...
+	maven {url 'https://dl.bintray.com/gaoyan/maven/'}
+}
+```
+2. 
+In your module `build.gradle` add follow 
+```
+dependencies {
+	compile 'com.yan.netmanager:netmanager:1.2.0'
+}
+```
 
 How to use
 ---
