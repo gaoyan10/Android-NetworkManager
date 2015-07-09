@@ -21,12 +21,17 @@ How to use
         ```
         NetStatusManager.getInstance().configTimeOut(2000, 2000)
         ``` 
+        
 3. In your activity onResume method, add 
+
    	```
 	NetStatusManager.getInstance().refreshStatus();
 	``` 
+	
 4. When you want to access network state, use like below 
+
 	```
 	NetStatusManager.getInstance().getNetStatus()
 	``` 	
+	
    which return the network status.
