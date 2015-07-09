@@ -4,17 +4,20 @@ a library for check network available on Android, which uses ping or request url
 
 How to use
 ---
-1. Download this repo and import eclipse as library project. Make your project depend on this project.
-2. Optional——Config the library in your application onCreate method or activity onCreate method. Use like below
-    config ping host and request url(optional, default is "http://www.baidu.com"):   
+1. Download this repo and import eclipse as library project. Make your project depend on this project. 
+2. Optional——Config the library in your application onCreate method or activity onCreate method. Use like below 
+    config ping host and request url(optional, default is "http://www.baidu.com"):    
+
 	```
 	NetStatusManager.getInstance().config("http://www.baidu.com", "http://www.baidu.com");
-	```
-    config use ping or request url(optional, default is request url)
+	``` 
+	
+    config use ping or request url(optional, default is request url) 
 	```
 	NetStatusManager.getInstance().setCheckType(false);
-	``` 	
-    config request timeout ( optional, default connect time out is 2000ms and read time out is 2000ms)
+	``` 
+	
+    config request timeout ( optional, default connect time out is 2000ms and read time out is 2000ms) 
         ```
         NetStatusManager.getInstance().configTimeOut(2000, 2000)
         ``` 
@@ -22,7 +25,7 @@ How to use
    	```
 	NetStatusManager.getInstance().refreshStatus();
 	``` 
-4. When you want to access network state, use like below
+4. When you want to access network state, use like below 
 	```
 	NetStatusManager.getInstance().getNetStatus()
 	``` 	
