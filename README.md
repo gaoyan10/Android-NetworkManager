@@ -17,8 +17,7 @@ How to use
 	NetStatusManager.getInstance().setCheckType(false);
 	``` 
 	
-    config request timeout ( optional, default connect time out is 2000ms and read time out is 2000ms) 
-    
+    config request timeout ( optional, default connect time out is 2000ms and read time out is 2000ms)  
         ```
         NetStatusManager.getInstance().configTimeOut(2000, 2000)
         ``` 
