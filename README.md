@@ -5,8 +5,6 @@ Set Up
 ---
 **Gradle dependency** 
 
-``` 
-
 In your module `build.gradle` add follow 
 ```
 dependencies {
