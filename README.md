@@ -5,12 +5,6 @@ Set Up
 ---
 **Gradle dependency** 
 
- In your `build.gradle` add following. 
-```
-repositories {
-	...
-	maven {url 'https://dl.bintray.com/gaoyan/maven/'}
-}
 ``` 
 
 In your module `build.gradle` add follow 
